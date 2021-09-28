@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*========== BASE + NO SCROLL BAR ==========*/
+html{
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+html, body{
+  word-break: break-word;
+}
+*, *::before,::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
