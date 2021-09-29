@@ -1,7 +1,7 @@
 @import "variables.scss";
 
 nav {
-  background-color: color(primary);
+  background-color: #000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -32,7 +32,10 @@ nav {
     text-transform: uppercase;
     display: none;
     a{
+      color: white;
       text-decoration: none;
+      transition: cubic-bezier(0.68, -0.55, 0.256,1.55);
+      transition-duration: .6s;
     }
   }
 
@@ -43,6 +46,13 @@ nav {
   }
   a.active{
       color: red;
+background: white;
+padding: 1rem;
+border-radius: 1.3rem;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+padding-bottom: 1rem;
+margin-bottom: -14px;
   }
   @include desktop {
     justify-content: space-around;

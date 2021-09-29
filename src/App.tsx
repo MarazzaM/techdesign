@@ -3,11 +3,13 @@ import Navbar from './components/Navbar';
 import {
   Switch,
   Route,
-  Redirect,
-  Link
+  Redirect
 } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
+import HowTo from './pages/HowTo';
+import Advice from './pages/Advice';
+import Resources from './pages/Resources';
 
 function App() {
   return (
@@ -20,6 +22,15 @@ function App() {
                 </Route>
                 <Route path='/About' exact>
                   <About />
+                </Route>
+                <Route path='/Howto' exact>
+                  <HowTo />
+                </Route>
+                <Route path='/Advice' exact>
+                  <Advice />
+                </Route>
+                <Route path='/Resources' exact>
+                  <Resources />
                 </Route>
               </Switch>
           </main>

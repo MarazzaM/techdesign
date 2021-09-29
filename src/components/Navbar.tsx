@@ -9,11 +9,11 @@ function Navbar(this: any) {
       <nav id='nav' className={active ? "mactive" : "nav"}>
         <div className="logo"><h1>LOGO</h1></div>
         <ul>
-          <NavLink activeClassName={'active'} to='/Home'>Home</NavLink>
-          <NavLink to='/About'>About</NavLink>
-          <NavLink to='/'>How to start</NavLink>
-          <NavLink to='/'>Advice</NavLink>
-          <NavLink to='/'>Resources</NavLink>
+          <NavLink activeClassName={'active'} to='/Home' onClick={()=> setActive(false)}>Home</NavLink>
+          <NavLink to='/About'     onClick={()=> setActive(false)}>About</NavLink>
+          <NavLink to='/HowTo'     onClick={()=> setActive(false)}>How to start</NavLink>
+          <NavLink to='/Advice'    onClick={()=> setActive(false)}>Advice</NavLink>
+          <NavLink to='/Resources' onClick={()=> setActive(false)}>Resources</NavLink>
           <li id='closebtn'><i className='bx bx-x-circle' onClick={()=> setActive(!active)}></i></li>
         </ul>
         <div className="theme-changer">
