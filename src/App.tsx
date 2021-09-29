@@ -2,9 +2,9 @@ import './App.css';
 import Navbar from './components/Navbar';
 import {
   Switch,
-  Route,
-  Redirect
+  Route
 } from "react-router-dom";
+import Welcome from './pages/Welcome';
 import Home from './pages/Home';
 import About from './pages/About';
 import HowTo from './pages/HowTo';
@@ -17,6 +17,9 @@ function App() {
           <Navbar/>
           <main>
               <Switch>
+              <Route path='/' exact>
+                  <Welcome />
+                </Route>
                 <Route path='/Home' exact>
                   <Home />
                 </Route>

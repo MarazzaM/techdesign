@@ -1,13 +1,13 @@
 import "./Navbar.scss";
 import { useState } from "react";
-import {NavLink} from "react-router-dom";
+import {NavLink, Link } from "react-router-dom";
 
 function Navbar(this: any) {
-    const [active, setActive] = useState(false)
+    const [active, setActive] = useState(false) //navbar mobile useState
   return (
     <div>
       <nav id='nav' className={active ? "mactive" : "nav"}>
-        <div className="logo"><h1>LOGO</h1></div>
+        <div className="logo"><h1><Link to="/" className="logoinside">TechDesign</Link></h1></div>
         <ul>
           <NavLink activeClassName={'active'} to='/Home' onClick={()=> setActive(false)}>Home</NavLink>
           <NavLink to='/About'     onClick={()=> setActive(false)}>About</NavLink>

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
+@import "variables";
+
+
+$bp-md: 600px;
+$bp-lg: 800px;
+
+:root {
+  --d: 700ms;
+  --e: cubic-bezier(0.19, 1, 0.22, 1);
+  --font-sans: "Gemunu Libre", sans-serif;
+  --font-serif: 'Cardo', serif;
+}
+
+.page-content {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
+  padding-bottom: 0;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+  @media (min-width: $bp-md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (min-width: $bp-lg) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

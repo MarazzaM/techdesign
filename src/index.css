@@ -11,10 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/*========== GENERAL CLASSES ==========*/
+
 .centered{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.page{
+  width: 100%;
+  height: 100%;
 }
 /*========== BASE + NO SCROLL BAR ==========*/
 html{

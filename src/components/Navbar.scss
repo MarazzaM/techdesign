@@ -10,20 +10,33 @@ nav {
   transition: all .5s cubic-bezier(.39,.58,.57,1);
   .logo {
     margin-left: 1rem;
-    font-size: 1rem;
+    .logoinside{
+      font-size: 1rem;
+      color: #fff;
+    text-decoration: none;
     font-family: $font-body;
+    }
   }
   .theme-changer{
       margin-right: 2rem;
   }
   .bx-moon {
     display: none;
+    color: #fff;
+
   }
   .bx-sun{
       display: none;
   }
   .bx{
       font-size: 2rem;
+      &:hover{
+        cursor: pointer;
+      }
+      
+  }
+  .bx-menu{
+    color: white;
   }
 
   ul {
@@ -32,7 +45,7 @@ nav {
     text-transform: uppercase;
     display: none;
     a{
-      color: white;
+      color: #fff;
       text-decoration: none;
       transition: cubic-bezier(0.68, -0.55, 0.256,1.55);
       transition-duration: .6s;
@@ -46,11 +59,9 @@ nav {
   }
   a.active{
       color: red;
-background: white;
+background: #fff;
 padding: 1rem;
 border-radius: 1.3rem;
-border-bottom-left-radius: 0px;
-border-bottom-right-radius: 0px;
 padding-bottom: 1rem;
 margin-bottom: -14px;
   }
@@ -60,6 +71,7 @@ margin-bottom: -14px;
       font-size: 1rem;
     }
     ul {
+      max-width: 1024px;
       display: flex;
       align-items: center;
       justify-content: space-evenly;
@@ -70,6 +82,10 @@ margin-bottom: -14px;
       }
       .bx-menu{
           display: none;
+      }
+      a.active{
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
       }
   }
 }
