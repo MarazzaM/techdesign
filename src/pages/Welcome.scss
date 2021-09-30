@@ -13,6 +13,14 @@
     h3{
       font-size: 1.5rem;
     }
+    @include desktop{
+      h1{
+        font-size: 8rem;
+      }
+      h3{
+        font-size: 4rem;
+      }
+    }
 }
 //button
 .button-container-2 {

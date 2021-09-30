@@ -43,20 +43,11 @@
 $colors: (
     primary: rgb(62, 92, 183),
     secondary: rgb(234, 1, 81),
-    primary-dark:rgb(133,76,49),
-    secondary-dark: darken(rgb(133,76,49), 20%),
     body: darken(rgb(243, 243, 240),3%),
-    nav-color:rgba(38, 38, 38, 0.438),
-    nav-color-fixed:rgba(38, 38, 38, 0.674),
-    github:#c9510c,
-    google:#ea4335,
-    linkedin:#0077b5,
-    sass:#bf4080,
-    firebase:#dd2c00,
-    visual-studio:#0066B8,
-    material-ui:rgb(51, 153, 255),
-    react:#00d8ff,
-    bootstrap:#6610f2
+    nav-white:#fff,
+    nav-black: #000,
+    discord:#7289da,
+    discorddarken: darken(rgb(114, 137, 218), 20%)
 );
 
 

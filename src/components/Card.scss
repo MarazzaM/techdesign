@@ -13,6 +13,10 @@ $bp-lg: 800px;
     text-align: center;
     color: whitesmoke;
     background-color: whitesmoke;
+    background: url(https://gist.githubusercontent.com/MarazzaM/25a41339a6ea712c313ff3eb6f912c29/raw/06e75a944afbf5a0ca27d4d26b096bc6a4272226/backgroundcard.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1), 
       0 2px 2px rgba(0,0,0,0.1), 
       0 4px 4px rgba(0,0,0,0.1), 
@@ -109,6 +113,7 @@ $bp-lg: 800px;
     color: white;
     background-color: black;
     border: none;
+    text-decoration: none;
     
     &:hover {
       background-color: lighten(black, 5%);

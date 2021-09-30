@@ -12,7 +12,7 @@ nav {
     margin-left: 1rem;
     .logoinside{
       font-size: 1rem;
-      color: #fff;
+      color: color(nav-white);
     text-decoration: none;
     font-family: $font-body;
     }
@@ -20,13 +20,14 @@ nav {
   .theme-changer{
       margin-right: 2rem;
   }
-  .bx-moon {
+  .bxl-discord {
     display: none;
-    color: #fff;
-
-  }
-  .bx-sun{
-      display: none;
+    color: color(nav-white);
+    transition: all .5s ease;
+    &:hover{
+      color: color(discord);
+      scale:1.1
+    }
   }
   .bx{
       font-size: 2rem;
@@ -36,7 +37,7 @@ nav {
       
   }
   .bx-menu{
-    color: white;
+    color: color(nav-white);
   }
 
   ul {
@@ -45,7 +46,7 @@ nav {
     text-transform: uppercase;
     display: none;
     a{
-      color: #fff;
+      color: color(nav-white);
       text-decoration: none;
       transition: cubic-bezier(0.68, -0.55, 0.256,1.55);
       transition-duration: .6s;
@@ -59,7 +60,7 @@ nav {
   }
   a.active{
       color: red;
-background: #fff;
+background: color(nav-white);
 padding: 1rem;
 border-radius: 1.3rem;
 padding-bottom: 1rem;
@@ -77,7 +78,7 @@ margin-bottom: -14px;
       justify-content: space-evenly;
       width: 80%;
     }
-    .bx-moon {
+    .bxl-discord{
         display: flex;
       }
       .bx-menu{
@@ -110,4 +111,8 @@ justify-content: space-evenly;
 .logo{
     display: none;
 }
+}
+.link-d{
+  text-decoration: none;
+  color: #fff;
 }
