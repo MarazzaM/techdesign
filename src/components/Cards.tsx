@@ -15,7 +15,8 @@ function Cards() {
         title: 'How to Start', 
         text: "Do you want to start developing websites? Here are some suggestions to get started", 
         btn: "Find out more",
-        path: "HowTo", },
+        path: "HowTo", 
+        },
         {
           id: 'e3',
           title: 'Advice',

@@ -1,0 +1,29 @@
+@import "./variables";
+
+.cardhow{
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+      flex: 1 1 0px;
+      margin: 1rem;
+}
+.texthow{
+    margin: 5px;
+}
+.icons{
+    font-size: 8rem;
+}
+.bxl-html5{
+    color: color(html);
+}
+.bxl-css3{
+    color: color(css);
+}
+.bxl-javascript{
+    color: color(javascript);
+}

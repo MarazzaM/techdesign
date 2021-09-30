@@ -18,7 +18,7 @@ function Navbar(this: any) {
         </ul>
         <div className="theme-changer">
         <i className='bx bx-menu' id='btn-menu' onClick={()=> setActive(!active)}></i>
-        <a href="https://discord.gg/jhSUKb7SH3" className="link-d" target="blank"><i className='bx bxl-discord'></i></a>
+        <a href="https://discord.gg/jhSUKb7SH3" className="link-d" target="_blank"  rel="noopener noreferrer"><i className='bx bxl-discord'></i></a>
         </div>
       </nav>
     </div>

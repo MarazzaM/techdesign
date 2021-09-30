@@ -1,0 +1,31 @@
+@import "./variables";
+
+.cardshow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.containercards{
+    padding: 1rem;
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-radius: 10rem;
+    width: 90vw;
+    @include desktop{
+        width: 80vw;
+    }
+}
+.textcc{
+    width: 75%;
+    margin: 2rem;
+}
