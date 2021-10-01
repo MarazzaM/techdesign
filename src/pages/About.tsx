@@ -1,6 +1,34 @@
 import React from "react";
 import "./About.scss";
 import Persona from "../components/Persona";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+
+const pageVariants = {
+  initial: {
+    opacity: 0,
+    x: "-100vw",
+    scale: 0.8,
+  },
+  in: {
+    opacity: 1,
+    x: 0,
+    scale: 1,
+
+  },
+  out: {
+    opacity: 0,
+    x: "100vw",
+    scale: 1.2,
+  }
+};
+
+const pageTransition = {
+  type: "tween",
+  ease: "anticipate",
+  duration: 0.3
+};
+
 
 function About() {
     const personas = [
@@ -32,7 +60,13 @@ function About() {
         },
       ];
   return (
-    <div className="About page">
+    <motion.div className="About page"
+      initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}
+    >
       <h1>Who we are</h1>
       <div className="card-about">
         We are passionate people about programming who recently started their
@@ -72,7 +106,12 @@ function About() {
             />
             </div>
         </div>
-    </div>
+        <div className="button-container-2">
+                  <span className="mas">Lets go!</span>
+                  <Link to="/HowTo"> <button type="button" name="Hover">How to start</button></Link>
+            </div>
+
+    </motion.div>
   );
 }
 

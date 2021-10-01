@@ -2,7 +2,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import {
   Switch,
-  Route
+  Route,
+  useLocation
 } from "react-router-dom";
 import Welcome from './pages/Welcome';
 import Home from './pages/Home';
@@ -10,13 +11,16 @@ import About from './pages/About';
 import HowTo from './pages/HowTo';
 import Advice from './pages/Advice';
 import Resources from './pages/Resources';
+import { AnimatePresence } from "framer-motion"
 
 function App() {
+  const location = useLocation();
   return (
     <div className="App">
           <Navbar/>
           <main>
-              <Switch>
+          <AnimatePresence exitBeforeEnter>
+              <Switch location={location} key={location.pathname}>
               <Route path='/' exact>
                   <Welcome />
                 </Route>
@@ -36,6 +40,7 @@ function App() {
                   <Resources />
                 </Route>
               </Switch>
+              </AnimatePresence>
               <footer>
   <svg viewBox="0 0 120 28">
     <defs>

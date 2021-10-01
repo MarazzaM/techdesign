@@ -1,14 +1,6 @@
 @import "./variables";
 
 .cardhow{
-    border-width: 3px;
-    border-style: solid;
-    border-image: 
-      linear-gradient(
-        to bottom, 
-        red, 
-        rgba(0, 0, 0, 0)
-      ) 1 100%;
       flex: 1 1 0px;
       margin: 1rem;
 }
