@@ -14,7 +14,7 @@
     }
 }
 @mixin desktop2 {
-    @media(min-width: #{$desktop2}){
+    @media(max-width: #{$desktop2}){
         @content;
     }
 }

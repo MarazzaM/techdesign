@@ -2,6 +2,8 @@ import "./CardsHow.scss";
 import SliderComponent from "./SliderComponent";
 import { BrowserRouter as Switch, Route, Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import LastSlider from "./LastSlider";
+import { useEffect } from "react";
 
 const pageVariants = {
   initial: {
@@ -28,7 +30,9 @@ const pageTransition = {
 };
 
 function CardsHow() {
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const sliderinfo = [
     {
       id: "a1",
@@ -70,7 +74,7 @@ function CardsHow() {
       title: "Back to back",
       description: " lorem ipsum dolor",
       prev:"/HowTo/slider2",
-      next:"/HowTo",
+      next:"/HowTo/think",
       prevtext:(
         <> 
           <i className='bx bx-left-arrow' ></i>
@@ -78,7 +82,7 @@ function CardsHow() {
         </>
       ),
       nexttext:(
-        <> <span>Back to start</span>
+        <> <span>Last slide!</span>
           
         </>
       ),
@@ -150,8 +154,16 @@ function CardsHow() {
             nexttext={sliderinfo[2].nexttext}
           />
         </Route>
+
+        <Route path="/HowTo/think">
+          <LastSlider/>
+        </Route>
         
       </Switch>
+      <div className="button-container-2">
+                  <span className="mas">Lets go!</span>
+                  <Link to="/Advice"> <button type="button" name="Hover">Next Section</button></Link>
+            </div>
     </motion.div>
   );
 }
