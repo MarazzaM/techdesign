@@ -1,6 +1,7 @@
 import React from "react";
 import "./Resources.scss";
 import { motion } from "framer-motion";
+import AdviceCards from "../components/AdviceCards";
 
 const pageVariants = {
   initial: {
@@ -35,7 +36,11 @@ function Resources() {
       variants={pageVariants}
       transition={pageTransition}
     >
-      Resources
+       {/* Resources */}
+
+       <div className="container-a-ac">
+            <AdviceCards/>
+            </div>
     </motion.div>
   );
 }

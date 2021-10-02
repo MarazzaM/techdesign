@@ -4,6 +4,8 @@ import { BrowserRouter as Switch, Route, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import LastSlider from "./LastSlider";
 import { useEffect } from "react";
+import SliderSecond from "./Slidersecond";
+import SliderThird from "./SliderThird";
 
 const pageVariants = {
   initial: {
@@ -37,7 +39,7 @@ function CardsHow() {
     {
       id: "a1",
       title: "First Steps",
-      description: " lorem ipsum dolor",
+      description: "The fundamentals of the web can be found in HTML, CSS, and JavaScript. Although these tools together will help you create a website from scratch, only JavaScript is the only programming language of the three. Keep in mind that learning javascript opens many doors and that the syntax is very similar to other programming languages!",
       prev:"/HowTo",
       next:"/HowTo/slider2",
       prevtext: (
@@ -54,7 +56,7 @@ function CardsHow() {
     {
       id: "a2",
       title: "Digging deeper",
-      description: " lorem ipsum dolor",
+      description: "Once you get the basics, you want to start learning some JavaScript Framework, it will help you develop more advanced and complex websites.These are one of the most popular and loved js frameworks, but there are many more options, just keep in mind that there may be more documentation for these three as the communities are quite large.",
       prev:"/HowTo/slider1",
       next:"/HowTo/slider3",
       prevtext: (
@@ -71,8 +73,8 @@ function CardsHow() {
     },
     {
       id: "a3",
-      title: "Back to back",
-      description: " lorem ipsum dolor",
+      title: "Getting more tools!",
+      description: "You will need more tools besides the ones that create the web, some version control system, a runtime system or maybe a compiler is always useful. There are many more that you will discover and need the more you venture into the world of web development, you can consult our discord for some more suggested ones but these three should guide you to find more",
       prev:"/HowTo/slider2",
       next:"/HowTo/think",
       prevtext:(
@@ -97,6 +99,7 @@ function CardsHow() {
           exit="out"
           variants={pageVariants}
           transition={pageTransition}
+          className="container-ch-c"
     >
       <Switch>
         
@@ -133,7 +136,7 @@ function CardsHow() {
         </Route>
 
         <Route path="/HowTo/slider2">
-          <SliderComponent
+          <SliderSecond
             title={sliderinfo[1].title}
             description={sliderinfo[1].description}
             prev={sliderinfo[1].prev}
@@ -145,7 +148,7 @@ function CardsHow() {
         </Route>
 
         <Route path="/HowTo/slider3">
-          <SliderComponent
+          <SliderThird
             title={sliderinfo[2].title}
             description={sliderinfo[2].description}
             prev={sliderinfo[2].prev}
@@ -158,6 +161,7 @@ function CardsHow() {
         <Route path="/HowTo/think">
           <LastSlider/>
         </Route>
+
         
       </Switch>
       <div className="button-container-2">

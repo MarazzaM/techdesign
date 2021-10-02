@@ -1,8 +1,7 @@
 import React from "react";
 import "./Card.scss";
-import { Link } from "react-router-dom";
 
-function Card(props: {
+function AdviceCard (props: {
   id: string | undefined;
   title:
     | boolean
@@ -34,13 +33,11 @@ function Card(props: {
         <div className="content">
           <h2 className="title">{props.title}</h2>
           <p className="copy">{props.text}</p>
-          <Link to={props.path} className="btn">
-            {props.btn}
-          </Link>
+          <a className="linkr" rel="noreferrer noopener" href={props.path}>{props.btn} </a>
         </div>
       </div>
     </div>
   );
 }
 
-export default Card;
+export default AdviceCard;

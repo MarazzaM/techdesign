@@ -15,7 +15,7 @@ const pageTransition = {
   },
 };
 
-function SliderComponent(props: {
+function SliderSecond(props: {
   title:
     | boolean
     | React.ReactChild
@@ -56,57 +56,52 @@ function SliderComponent(props: {
   }, []);
   const cards = [
     {
-      id: "htmlcard",
-      step: "HTML",
+      id: "reactcard",
+      step: "ReactJS",
       texthow:
-        "HTML (HyperText Markup Language) should be your first step to start in web development, it defines the meaning and structure of the web content",
+        "React is an open source JavaScript library designed for building SPAs (single page application), and it's all about components! It uses JSX in the syntax, so it's like bringing HTML to JavaScript. It's a very flexible library and gives you a lot of options to choose from when building your app, and that can be a good thing when you know what you're doing, but it's challenging at first",
       icons: (
         <>
           <a
-            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            href="https://es.reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="bx bxl-html5"></i>
+            <i className="bx bxl-react"></i>
           </a>
         </>
       ),
     },
     {
-      id: "csscard",
-      step: "CSS",
+      id: "vuecard",
+      step: "VueJS",
       texthow:
-        "CSS (Cascading Style Sheets) is used to style your HTML elements, it will give your website the most impressive look! From colors, fonts, and amazing keyframe animations, anything is possible!",
+        "CSS (Cascading Style Sheets) is used to stylize the elements of your HTML, colors, keyframes animations and more can be achieved with this awesome tool",
       icons: (
         <>
-          <a
-            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="bx bxl-css3"></i>
+          <a href="https://vuejs.org" target="_blank" rel="noopener noreferrer">
+            <i className="bx bxl-vuejs"></i>
           </a>
         </>
       ),
     },
     {
-      id: "jscard",
-      step: "JavaScript",
+      id: "angularcard",
+      step: "AngularJS",
       texthow:
-        'This should be your first programming language, if a web is rendering something more than static content you can bet JS is involved.From the most simple "Hello World" to crazy animation and functionalities, JavaScript can have it done',
+        'This should be your first programming language, if a web is rendering something more than static content you can bet it JS is involved.From the most simple "Hello World" to crazy animation and functionalities, javascript can have it done',
       icons: (
         <>
           <a
-            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            href="https://angularjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="bx bxl-javascript"></i>
+            <i className="bx bxl-angular"></i>{" "}
           </a>
         </>
       ),
     },
-
   ];
 
   return (
@@ -151,4 +146,4 @@ function SliderComponent(props: {
   );
 }
 
-export default SliderComponent;
+export default SliderSecond;

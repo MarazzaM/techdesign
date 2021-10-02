@@ -40,28 +40,28 @@ function Cards() {
             text={content[0].text}
             btn={content[0].btn}
             path={content[0].path}
-            
+            id={content[0].id}
             />
             <Card
             title={content[1].title}
             text={content[1].text}
             btn={content[1].btn}
             path={content[1].path}
-      
+            id={content[1].id}
             />
             <Card
             title={content[2].title}
             text={content[2].text}
             btn={content[2].btn}
             path={content[2].path}
-            
+            id={content[2].id}
             />
             <Card
             title={content[3].title}
             text={content[3].text}
             btn={content[3].btn}
             path={content[3].path}
-            
+            id={content[3].id}
             />
 </main>
         </div>

@@ -108,7 +108,7 @@ function About() {
         </div>
         <div className="button-container-2">
                   <span className="mas">Lets go!</span>
-                  <Link to="/HowTo"> <button type="button" name="Hover">How to start</button></Link>
+                  <Link to="/HowTo"> <button type="button" name="Hover">Next Section</button></Link>
             </div>
 
     </motion.div>

@@ -2,7 +2,7 @@
 
 .cardshow {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 2rem;
@@ -19,27 +19,26 @@
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  border: 10px solid;
-  border-image-slice: 1;
-  border-width: 5px;
-  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-  border-radius: 10rem;
-  width: 90vw;
-  @include desktop {
-    width: 80vw;
+  width: 98vw;
+  font-family: $font-body;
+  h1{
+    font-family: $font-nav;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    text-shadow: 3px 5px 2px #474747, 7px 7px 2px rgba(0,0,0,0.42);
   }
+
 }
 .textcc {
   width: 75%;
-  margin: auto;
-}
-.cardhow:nth-of-type(2n) {
-  @include desktop {
-    border: none !important;
+  margin: 1.2rem;
+  font-size: $regular-font;
+  @include desktop{
+    font-size: 1.5rem;
   }
 }
+
 .container-cw-slider {
-    margin: auto;
     width: 90%;
   text-align: center;
   flex-direction: column;
@@ -48,7 +47,7 @@
   font-family: $font-body;
   h1 {
       font-family: $font-nav;
-  font-size: $h1-font-size;
+  font-size: 4rem;
     padding: 1rem;
     text-transform: uppercase;
   }
@@ -58,7 +57,7 @@
   height: auto;
   margin-top: 2rem;
   @include desktop {
-    height: calc(90vh - 179px) !important;
+    height: calc(90vh - 213px) !important;
       width: 70%;
     h1{
         font-size: 6rem;
@@ -95,15 +94,30 @@ $baby-blue: #f8faff;
   width: 50%;
   margin-right: auto;
   margin-left: auto;
-  
+  transition: all .3s ease;
+  &:active{
+    transform: scale(0.9);
+    background-color: darken($button-bg, 5%);
+    box-shadow: 0 2px 25px rgba(64, 224, 208, 0.473);
+  }
+  &:hover{
+    background-color: darken($button-bg, 5%);
+    transform: scale(1.1);
+  }
   }
 
 .text-cw-s{
-  font-size: 1rem;
+  font-size: 1.2rem;
   @media (min-width: 768px) and (max-width: 1152px) {
 font-size: 1.3rem !important;
   }
   @include desktop{
     font-size: 2rem;
   }
+}
+.container-ch-c{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }

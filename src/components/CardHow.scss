@@ -3,6 +3,46 @@
 .cardhow{
       flex: 1 1 0px;
       margin: 1rem;
+      width: 95vw;
+      @include desktop{
+        padding: 1rem;
+      }
+      background:transparent;
+      padding:1rem 1rem;
+      margin:0 1rem;
+      transition:all .5s ease;
+      color:#41403E;
+      font-family: $font-body;
+      font-weight: $font-media;
+      letter-spacing:1px;
+      outline:none;
+      box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      /*
+      Above is shorthand for:
+      border-top-left-radius: 255px 15px;
+      border-top-right-radius: 15px 225px;
+      border-bottom-right-radius: 225px 15px;
+      border-bottom-left-radius:15px 255px;
+      */
+       &:hover{
+         box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+      } 
+      &.lined.thick{
+         border:solid 7px #41403E;
+      }
+    animation: 3s floating infinite ease;
+    h1{
+        font-family: $font-react;
+        text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+    }
 }
 .texthow{
     margin: 5px;
@@ -18,4 +58,16 @@
 }
 .bxl-javascript{
     color: color(javascript);
+}
+
+@keyframes floating{
+    0%{
+        box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    }
+    50%{
+        box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+    }
+    100%{
+        box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    }
 }

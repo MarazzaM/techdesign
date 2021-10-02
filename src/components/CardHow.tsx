@@ -2,14 +2,8 @@ import React from "react";
 import "./CardHow.scss";
 
 function CardHow(props: {
+  id: string | undefined;
   step:
-    | boolean
-    | React.ReactChild
-    | React.ReactFragment
-    | React.ReactPortal
-    | null
-    | undefined;
-  texthow:
     | boolean
     | React.ReactChild
     | React.ReactFragment
@@ -23,15 +17,20 @@ function CardHow(props: {
     | React.ReactPortal
     | null
     | undefined;
+  texthow:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
 }) {
   return (
-    
-      <div className="cardhow">
-        <h1>{props.step}</h1>
-        <div className="texthow">{props.texthow}</div>
-        <div className="icons">{props.icons}</div>
-      </div>
-    
+    <div className="cardhow lined thick" id={props.id}>
+      <h1>{props.step}</h1>
+      <div className="icons">{props.icons}</div>
+      <div className="texthow">{props.texthow}</div>
+    </div>
   );
 }
 

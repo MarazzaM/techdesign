@@ -7,7 +7,7 @@
     align-items: center;
     margin-top: 2rem;
     @include desktop{
-    justify-content: space-evenly;
+        justify-content: flex-start;
     }
 }
 .content-home{
@@ -16,9 +16,14 @@
   font-family: $font-body;
     font-size: $h2-font-size;
     h1{
+        font-family: $font-nav;
         text-transform: uppercase;
         letter-spacing: $tittle-spacing;
         margin-bottom: 1rem;
+        text-shadow: 3px 5px 2px #474747, 7px 7px 2px rgba(0,0,0,0.42);
+        @include desktop{
+            font-size: 6rem;
+        }
     }
     a{
         text-decoration: none;
@@ -31,4 +36,6 @@
 }
 .discordi{
     font-size: $big-big-font;
+    margin-top: 2rem;
+
 }

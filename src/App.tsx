@@ -19,6 +19,28 @@ function App() {
     <div className="App">
           <Navbar/>
           <main>
+          <div className="cloudy">
+          <div className="cloud1">
+  <div className="cl1">
+  </div>
+  <div className="cl2">
+  </div>
+  <div className="cl3">
+  </div>
+  <div className="cl4">
+  </div>
+</div>
+<div className="cloud2">
+  <div className="cl1">
+  </div>
+  <div className="cl2">
+  </div>
+  <div className="cl3">
+  </div>
+  <div className="cl4">
+  </div>
+</div>
+          </div>
           <AnimatePresence exitBeforeEnter>
               <Switch location={location} key={location.pathname}>
               <Route path='/' exact>

@@ -9,6 +9,7 @@
     h1{
       font-size: 3rem;
       font-family: $font-nav;
+      text-shadow: 3px 5px 2px #474747, 7px 7px 2px rgba(0,0,0,0.42);
     }
     h3{
       font-size: 1.5rem;
@@ -30,13 +31,14 @@
       height: 50px;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 7vh;
+      margin-top: 5vh;
       overflow: hidden;
       border: 1px solid #000;
       font-weight: 300;
       transition: 0.5s;
       letter-spacing: 1px;
       border-radius: 8px;
+      margin-bottom: 1vh;
       @include desktop{
         width: 30vw;
       }

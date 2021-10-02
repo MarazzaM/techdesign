@@ -44,7 +44,7 @@ function LastSlider() {
         >
             <h1>All its up to you!</h1>
             <div className="text-ls">
-                lorem ipsum dolor
+            At the end of the day, this entire section is completely subjective. You can get started with the backend without any problem, or try to learn a framework all at once! (Although it is very, very little recommended, it is possible). Do not stay only with this information, look for much more on your own since being a developer is about that, never stop studying and always be researching!
             </div>
         </motion.div>
     )
