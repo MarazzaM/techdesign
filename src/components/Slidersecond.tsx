@@ -59,7 +59,7 @@ function SliderSecond(props: {
       id: "reactcard",
       step: "ReactJS",
       texthow:
-        "React is an open source JavaScript library designed for building SPAs (single page application), and it's all about components! It uses JSX in the syntax, so it's like bringing HTML to JavaScript. It's a very flexible library and gives you a lot of options to choose from when building your app, and that can be a good thing when you know what you're doing, but it's challenging at first",
+        "ReactJS is an open source JavaScript library designed by the Facebook team and it's all about components! It uses JSX in the syntax, so it's like bringing HTML to JavaScript. It's a very flexible library and gives you a lot of options to choose from when building your app, and that can be a good thing when you know what you're doing, but it's challenging at first.",
       icons: (
         <>
           <a
@@ -76,7 +76,7 @@ function SliderSecond(props: {
       id: "vuecard",
       step: "VueJS",
       texthow:
-        "CSS (Cascading Style Sheets) is used to stylize the elements of your HTML, colors, keyframes animations and more can be achieved with this awesome tool",
+        "VueJS progressive framework for building and one-page applications, Vue is developed for JavaScript. It has been designed for scalability and incrementality along with being easy to integrate with other libraries focused on the view layer.A factor to take into account when working with Vue is that it is built and supported by the community, making its volatility higher than that of the other two and since no company supports it, its existence also depends entirely on the community.",
       icons: (
         <>
           <a href="https://vuejs.org" target="_blank" rel="noopener noreferrer">
@@ -89,7 +89,7 @@ function SliderSecond(props: {
       id: "angularcard",
       step: "AngularJS",
       texthow:
-        'This should be your first programming language, if a web is rendering something more than static content you can bet it JS is involved.From the most simple "Hello World" to crazy animation and functionalities, javascript can have it done',
+        "AngularJS is a framework developed by the Google team, and in our opinion the best for developing large projects, although it may be excessive for small websites. It is a structural framework for dynamic web applications. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application components clearly and succinctly. Its data binding and dependency injection eliminate much of the code you currently have to write.",
       icons: (
         <>
           <a

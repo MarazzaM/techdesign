@@ -110,6 +110,7 @@ align-items: center;
 #jscard{
   h1{
     color: color(jsdarken);
+    word-break: keep-all;
   }
   &.lined.thick{
     border:solid 7px color(javascript);
@@ -132,6 +133,7 @@ align-items: center;
  }}
  #angularcard{
   h1{
+    word-break: keep-all;
     color: color(angular);
   }
   &.lined.thick{

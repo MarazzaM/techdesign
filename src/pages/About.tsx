@@ -51,13 +51,6 @@ function About() {
           extract: "Curabitur posuere commodo nunc, vitae eleifend ligula pellentesque eget. Quisque vel accumsan massa, eu ornare mauris. Vivamus arcu tortor, consectetur a interdum a, porttitor sed nisi. Sed egestas consectetur tellus, a euismod metus fermentum sed. Vivamus non pulvinar sem. Sed eleifend massa nec nibh elementum vehicula. Quisque magna mi, porttitor at velit et, aliquam aliquet ipsum. Vestibulum tempor liber",
           linkedin: "https://www.linkedin.com/in/mariana-del-rosario-eizayaga-a08a4b159/",
         },
-        {
-          id: 'e4',
-          name: 'Resources',
-          photo: "lorem",
-          extract: "Find out more",
-          linkedin: "Resources",
-        },
       ];
   return (
     <motion.div className="About page"
@@ -67,7 +60,8 @@ function About() {
       variants={pageVariants}
       transition={pageTransition}
     >
-      <h1>Who we are</h1>
+      <div className="ww-container">
+      <h1><span className="colors">Who</span> we are</h1>
       <div className="card-about">
         We are passionate people about programming who recently started their
         web development journey, but with a burning flame in our hearts! This
@@ -76,14 +70,15 @@ function About() {
         believe that the best path to learning is to help each other and have an
         active conversation about new technologies
       </div>
+      </div>
         <div className="what-about">
-        <h1>What is this about</h1>
+        <h1><span className="colors">What</span> is this about</h1>
       <div className="card-about">
       We want to help anyone who wants to join this beautiful path of web development, take their first steps and have a general notion of the big picture. No matter age, gender or prior programming knowledge, anyone can start this journey
       </div>
         </div>
         <div className="personas">
-            <h1>Some of the people behind the scenes</h1>
+            <h1>Some of the <span className="colors">people</span> behind the scenes</h1>
             <div className="container-personas">
             <Persona 
             name={personas[0].name}

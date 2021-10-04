@@ -59,7 +59,7 @@ function SliderComponent(props: {
       id: "htmlcard",
       step: "HTML",
       texthow:
-        "HTML (HyperText Markup Language) should be your first step to start in web development, it defines the meaning and structure of the web content",
+        "HTML (HyperText Markup Language) should be your first step to start in web development, it defines the meaning and structure of the web content.",
       icons: (
         <>
           <a
@@ -76,7 +76,7 @@ function SliderComponent(props: {
       id: "csscard",
       step: "CSS",
       texthow:
-        "CSS (Cascading Style Sheets) is used to style your HTML elements, it will give your website the most impressive look! From colors, fonts, and amazing keyframe animations, anything is possible!",
+        "CSS (Cascading Style Sheets) is used to style your HTML elements, it will give your website the most impressive look! From colors, fonts, and amazing keyframe animations, anything is possible!.",
       icons: (
         <>
           <a
@@ -93,7 +93,7 @@ function SliderComponent(props: {
       id: "jscard",
       step: "JavaScript",
       texthow:
-        'This should be your first programming language, if a web is rendering something more than static content you can bet JS is involved.From the most simple "Hello World" to crazy animation and functionalities, JavaScript can have it done',
+        'This should be your first programming language, if a web is rendering something more than static content you can bet JS is involved.From the most simple "Hello World" to crazy animation and functionalities, JavaScript can have it done.',
       icons: (
         <>
           <a

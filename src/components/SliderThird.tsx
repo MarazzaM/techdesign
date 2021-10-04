@@ -36,7 +36,7 @@ function SliderThird(props: { title: boolean | React.ReactChild | React.ReactFra
       id: "sasscard",
       step: "Sass",
       texthow:
-        "CSS (Cascading Style Sheets) is used to stylize the elements of your HTML, colors, keyframes animations and more can be achieved with this awesome tool",
+        "Creating and maintaining CSS for large projects can be tricky, so using a preprocessor can go a long way to get new features and keep your code simpler to maintain. Sass has features that don't exist in CSS yet like nesting, mixins, inheritance, and other nifty goodies that help you write robust, maintainable CSS.",
       icons: (
         <>
          <i className='bx bxl-sass' ></i>
@@ -47,7 +47,7 @@ function SliderThird(props: { title: boolean | React.ReactChild | React.ReactFra
       id: "gitcard",
       step: "Git",
       texthow:
-        'This should be your first programming language, if a web is rendering something more than static content you can bet it JS is involved.From the most simple "Hello World" to crazy animation and functionalities, javascript can have it done',
+        'If you are thinking of starting an individual or team project, you will need a version control system (VSC) to keep everything organized.A VSC is a kind of software that helps the developer team to efficiently communicate and manage(track) all the changes that have been made to the source code along with the information like who made and what change has been made.',
       icons: (
         <>
           <i className='bx bxl-git'></i>

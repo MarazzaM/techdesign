@@ -27,6 +27,7 @@
       */
        &:hover{
          box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+         scale: 1.1;
       } 
       &.lined.thick{
          border:solid 7px #41403E;
@@ -43,7 +44,9 @@
     6px 5px 1px #ccc, 5px 6px 1px #eee,
     7px 6px 1px #ccc;
     }
+    
 }
+
 .texthow{
     margin: 5px;
 }
@@ -71,3 +74,20 @@
         box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
     }
 }
+.card-advice{
+    background:linear-gradient(143deg, #71c6dc, #2809b9);
+    background-size: 250% 250%;
+    animation: gradient-animation 12s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

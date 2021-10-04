@@ -57,7 +57,7 @@
   height: auto;
   margin-top: 2rem;
   @include desktop {
-    height: calc(90vh - 213px) !important;
+    height: calc(90vh - 350px) !important;
       width: 70%;
     h1{
         font-size: 6rem;
@@ -73,10 +73,8 @@ $button-text-color: #fff;
 $baby-blue: #f8faff;
     .startbtn{
       text-decoration: none;
-      padding: 1rem;
     font-size: 1em;
-    padding: 1em 2em;
-   
+    padding: 1.5em 2em;
     margin-bottom: 60px;
     -webkit-appearance: none;
     appearance: none;
@@ -104,10 +102,13 @@ $baby-blue: #f8faff;
     background-color: darken($button-bg, 5%);
     transform: scale(1.1);
   }
+  @include desktop{
+  font-size: 1.5rem;
+  }
   }
 
 .text-cw-s{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   @media (min-width: 768px) and (max-width: 1152px) {
 font-size: 1.3rem !important;
   }

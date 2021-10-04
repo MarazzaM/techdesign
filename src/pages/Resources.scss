@@ -1,0 +1,30 @@
+@import "../components/variables";
+.container-a-ac{
+    font-family: $font-body;
+#googlingtitle{
+    font-size: 4rem;
+    font-family: $font-nav;
+    text-transform: uppercase;
+    @include desktop{
+        font-size: 6rem;
+    }
+}
+}
+$gradient-color-1: #d53a9d;
+$gradient-color-2: #00bcd4;
+.colors{
+    color: #fc3735;
+      background: -webkit-linear-gradient(left, $gradient-color-1,$gradient-color-2 , $gradient-color-1);
+      background-size: 1600px 200px;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation-duration: 3s;
+      animation-name: animationgradienttitle;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+}
+#hard{
+    letter-spacing: 1rem;
+
+}

@@ -20,7 +20,7 @@ function Cards() {
         {
           id: 'e3',
           title: 'Advice',
-          text: "Some tips that we would have liked to hear when we started",
+          text: "A tip that we would have liked to hear when we started",
           btn: "Find out more",
           path: "Advice",
         },

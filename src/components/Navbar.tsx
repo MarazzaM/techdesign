@@ -13,7 +13,7 @@ function Navbar(this: any) {
           <NavLink to='/About'     onClick={()=> setActive(false)}>About</NavLink>
           <NavLink to='/HowTo'     onClick={()=> setActive(false)}>How to start</NavLink>
           <NavLink to='/Advice'    onClick={()=> setActive(false)}>Advice</NavLink>
-          <NavLink to='/Resources' onClick={()=> setActive(false)}>Resources</NavLink>
+          <NavLink to='/Resources' onClick={()=> setActive(false)}>Free Resources</NavLink>
           <li id='closebtn'><i className='bx bx-x-circle' onClick={()=> setActive(!active)}></i></li>
         </ul>
         <div className="theme-changer">

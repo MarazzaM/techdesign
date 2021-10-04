@@ -39,7 +39,7 @@ function CardsHow() {
     {
       id: "a1",
       title: "First Steps",
-      description: "The fundamentals of the web can be found in HTML, CSS, and JavaScript. Although these tools together will help you create a website from scratch, only JavaScript is the only programming language of the three. Keep in mind that learning javascript opens many doors and that the syntax is very similar to other programming languages!",
+      description: "The fundamentals of the web can be found in HTML, CSS, and JavaScript. Although these tools together will help you create a website from scratch, only JavaScript is the only programming language of the three. Keep in mind that learning javascript opens many doors and that the syntax is very similar to other programming languages!.",
       prev:"/HowTo",
       next:"/HowTo/slider2",
       prevtext: (
@@ -56,7 +56,7 @@ function CardsHow() {
     {
       id: "a2",
       title: "Digging deeper",
-      description: "Once you get the basics, you want to start learning some JavaScript Framework, it will help you develop more advanced and complex websites.These are one of the most popular and loved js frameworks, but there are many more options, just keep in mind that there may be more documentation for these three as the communities are quite large.",
+      description: "Once you get the basics, you want to start learning some JavaScript Framework, it will help you develop more advanced and complex websites.These are one of the most popular and loved JS frameworks, but there are many more options, just keep in mind that there may be more documentation for these three as the communities are quite large.These frames will allow you to create SPAs (single page applications) that will allow you to fool the visitor by dynamically rewriting the current web page with new data, instead of requesting new HTML pages. This is great for creating a good user experience.Any of the three is good, maybe we suggest more React as it is the most popular of the three and it is quite easy to jump on it.",
       prev:"/HowTo/slider1",
       next:"/HowTo/slider3",
       prevtext: (
@@ -74,7 +74,7 @@ function CardsHow() {
     {
       id: "a3",
       title: "Getting more tools!",
-      description: "You will need more tools besides the ones that create the web, some version control system, a runtime system or maybe a compiler is always useful. There are many more that you will discover and need the more you venture into the world of web development, you can consult our discord for some more suggested ones but these three should guide you to find more",
+      description: "You will need more tools besides the ones that create the web, some version control system, a runtime system or maybe a compiler is always useful. There are many more that you will discover and need the more you venture into the world of web development, you can consult our discord for some more suggested ones but these three should guide you to find more.",
       prev:"/HowTo/slider2",
       next:"/HowTo/think",
       prevtext:(
