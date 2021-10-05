@@ -25,7 +25,7 @@ width: 95%;
 margin: auto;
 }
 .card-about{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     max-width: 1024px;
     letter-spacing: $normal-spacing;
     font-family:$font-body ;
@@ -61,4 +61,14 @@ h1{
 }
 .card-about{
     transform: rotate(2deg);
+}
+.titles-about{
+    font-size: 3.5rem !important;
+}
+.div1{
+    img{
+        background: -webkit-linear-gradient(left top, #FC466B 0%, #3F5EFB 100%);
+        border-radius: 1000px;
+         padding: 5px;
+    }
 }

@@ -28,7 +28,9 @@ function SliderThird(props: { title: boolean | React.ReactChild | React.ReactFra
         "Node.js is a cross-platform JavaScript runtime that enables developers to build server-side and network applications with JavaScript. You can create, open, read, write, delete and close files on the server, collect data from forms, you can add, delete, modify data in your database and much more!",
       icons: (
         <>
-          <i className='bx bxl-nodejs' ></i>
+        <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
+        <i className='bx bxl-nodejs' ></i>
+          </a>
         </>
       ),
     },
@@ -39,7 +41,9 @@ function SliderThird(props: { title: boolean | React.ReactChild | React.ReactFra
         "Creating and maintaining CSS for large projects can be tricky, so using a preprocessor can go a long way to get new features and keep your code simpler to maintain. Sass has features that don't exist in CSS yet like nesting, mixins, inheritance, and other nifty goodies that help you write robust, maintainable CSS.",
       icons: (
         <>
+        <a href="https://sass-lang.com" target="_blank" rel="noopener noreferrer">
          <i className='bx bxl-sass' ></i>
+          </a>
         </>
       ),
     },
@@ -50,7 +54,9 @@ function SliderThird(props: { title: boolean | React.ReactChild | React.ReactFra
         'If you are thinking of starting an individual or team project, you will need a version control system (VSC) to keep everything organized.A VSC is a kind of software that helps the developer team to efficiently communicate and manage(track) all the changes that have been made to the source code along with the information like who made and what change has been made.',
       icons: (
         <>
-          <i className='bx bxl-git'></i>
+        <a href="https://git-scm.com" target="_blank" rel="noopener noreferrer">
+        <i className='bx bxl-git'></i>
+          </a>
         </>
       ),
     },

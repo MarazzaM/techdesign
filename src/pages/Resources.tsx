@@ -41,7 +41,7 @@ function Resources() {
        <div className="container-a-ac">
          <div>
            <h1 id="googlingtitle">Googling is <span id="hard" className="colors">hard</span></h1>
-           <div>Googling is one of the greatest skills a dev should have, but having some links at hand never hurts.</div>
+           <div className="resources-text">Googling is one of the greatest skills a dev should have, but having some links at hand never hurts.</div>
          </div>
             <AdviceCards/>
             </div>

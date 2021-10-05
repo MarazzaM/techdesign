@@ -41,14 +41,14 @@ function About() {
         },
         { id: 'e2', 
         name: 'Tomas', 
-        photo: "https://media-exp1.licdn.com/dms/image/D4D35AQFlxt5HKLnFiQ/profile-framedphoto-shrink_200_200/0/1631218863842?e=1633039200&v=beta&t=RQ9ni7PNajvRKpXyDVBhnv0-GsdReEl_gheJA6HJOlg", 
-        extract: "As a founding member of Tech Design I am proud of the small community that we have created, having been born from the project of two friends to be able to study web development, it became a very large project that cuts across all the people in our community",
+        photo: "https://i.imgur.com/cROQqDd.png", 
+        extract: "As a founding member of Tech Design I am proud of the small community that we have created, having been born from the project of two friends to be able to study web development, it became a very large project that cuts across all the people in our community.",
         linkedin: "https://www.linkedin.com/in/tomás-fierro-bértole-198a6121b/", },
         {
           id: 'e3',
           name: 'Mariana',
-          photo: "https://media-exp1.licdn.com/dms/image/C5635AQFHeV4MyZIaaw/profile-framedphoto-shrink_200_200/0/1615820660491?e=1633042800&v=beta&t=Qxixe-ePR371E71pPRRZSis5zqk334s-WHvrBINd6iE",
-          extract: "Curabitur posuere commodo nunc, vitae eleifend ligula pellentesque eget. Quisque vel accumsan massa, eu ornare mauris. Vivamus arcu tortor, consectetur a interdum a, porttitor sed nisi. Sed egestas consectetur tellus, a euismod metus fermentum sed. Vivamus non pulvinar sem. Sed eleifend massa nec nibh elementum vehicula. Quisque magna mi, porttitor at velit et, aliquam aliquet ipsum. Vestibulum tempor liber",
+          photo: "https://i.imgur.com/sVqiqYz.png",
+          extract: "As one of the first members of Tech Design, I was happy to find a group of people with similar interests and who liked web development. I started my career as a web developer recently and I hope it will be a long and fruitful road.",
           linkedin: "https://www.linkedin.com/in/mariana-del-rosario-eizayaga-a08a4b159/",
         },
       ];
@@ -61,24 +61,24 @@ function About() {
       transition={pageTransition}
     >
       <div className="ww-container">
-      <h1><span className="colors">Who</span> we are</h1>
+      <h1 className="titles-about"><span className="colors">Who</span> we are</h1>
       <div className="card-about">
         We are passionate people about programming who recently started their
         web development journey, but with a burning flame in our hearts! This
         initiative has the idea of being able to share resources, ideas and
         guides so that this path can include anyone who wants to join us. We
         believe that the best path to learning is to help each other and have an
-        active conversation about new technologies
+        active conversation about new technologies.
       </div>
       </div>
         <div className="what-about">
-        <h1><span className="colors">What</span> is this about</h1>
+        <h1 className="titles-about"><span className="colors">What</span> is this about</h1>
       <div className="card-about">
-      We want to help anyone who wants to join this beautiful path of web development, take their first steps and have a general notion of the big picture. No matter age, gender or prior programming knowledge, anyone can start this journey
+      We want to help anyone who wants to join this beautiful path of web development, take their first steps and have a general notion of the big picture. No matter age, gender or prior programming knowledge, anyone can start this journey.
       </div>
         </div>
         <div className="personas">
-            <h1>Some of the <span className="colors">people</span> behind the scenes</h1>
+            <h1 className="titles-about">Some of the <span className="colors">people</span> behind the scenes</h1>
             <div className="container-personas">
             <Persona 
             name={personas[0].name}

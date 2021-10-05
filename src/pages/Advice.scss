@@ -4,7 +4,6 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 76vh;
   h1{
     font-family: $font-nav;
     padding: 1rem;
@@ -16,6 +15,10 @@
     }
 
   }
+  height: auto;
+  margin: 1rem;
+  padding-bottom: 1rem;
+
   
 }
 .text-advice {
@@ -25,9 +28,10 @@
   align-items: center;
   justify-content: center;
   width: 80%;
+  font-size: 1.5rem;
   @include desktop{
     width: 70%;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 .container-a-ac {
@@ -41,12 +45,19 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 90%;
+padding-bottom: 2rem;
 @include desktop{
 width: 80%;
 }
-
-border: solid black;
-  border-color: black;
-  border-width: 3px 3px 5px 5px;
-  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+}
+.svg-container{
+  img{
+    width: 100vw;
+    @include desktop{
+      width: auto;
+    }
+  }
+}
+.text-advice2{
+  margin: auto;
 }

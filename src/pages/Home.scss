@@ -37,5 +37,17 @@
 .discordi{
     font-size: $big-big-font;
     margin-top: 2rem;
+    animation: discord 3s infinite ease;
+}
 
+@keyframes discord{
+    0%{
+        color:#7289da;
+    }
+    50%{
+        color: #304eb6;
+    }
+    100%{
+        color:#7289da;
+    }
 }
