@@ -43,7 +43,7 @@ function App() {
           </div>
           <AnimatePresence exitBeforeEnter>
               <Switch location={location} key={location.pathname}>
-              <Route path='/' exact>
+              <Route path='/techdesign' exact>
                   <Welcome />
                 </Route>
                 <Route path='/Home' exact>
