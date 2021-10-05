@@ -7,7 +7,7 @@ function Navbar(this: any) {
   return (
     <div>
       <nav id='nav' className={active ? "mactive" : "nav"}>
-        <div className="logo"><h1><Link to="/techdesign" className="logoinside">TechDesign</Link></h1></div>
+        <div className="logo"><h1><a href="https://marazzam.github.io/techdesign/" className="logoinside">TechDesign</a></h1></div>
         <ul>
           <NavLink activeClassName={'active'} to='/Home' onClick={()=> setActive(false)}>Home</NavLink>
           <NavLink to='/About'     onClick={()=> setActive(false)}>About</NavLink>
