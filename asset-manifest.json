@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/techdesign/static/css/main.9295efc6.chunk.css",
+    "main.js": "/techdesign/static/js/main.a10aeda7.chunk.js",
+    "main.js.map": "/techdesign/static/js/main.a10aeda7.chunk.js.map",
+    "runtime-main.js": "/techdesign/static/js/runtime-main.0a3e7d96.js",
+    "runtime-main.js.map": "/techdesign/static/js/runtime-main.0a3e7d96.js.map",
+    "static/js/2.51839588.chunk.js": "/techdesign/static/js/2.51839588.chunk.js",
+    "static/js/2.51839588.chunk.js.map": "/techdesign/static/js/2.51839588.chunk.js.map",
+    "static/js/3.541e88f5.chunk.js": "/techdesign/static/js/3.541e88f5.chunk.js",
+    "static/js/3.541e88f5.chunk.js.map": "/techdesign/static/js/3.541e88f5.chunk.js.map",
+    "index.html": "/techdesign/index.html",
+    "static/css/main.9295efc6.chunk.css.map": "/techdesign/static/css/main.9295efc6.chunk.css.map",
+    "static/js/2.51839588.chunk.js.LICENSE.txt": "/techdesign/static/js/2.51839588.chunk.js.LICENSE.txt",
+    "static/media/CardHow.scss": "/techdesign/static/media/T.87f533f2.webp",
+    "static/media/SliderComponent.scss": "/techdesign/static/media/TJS.23a97916.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a3e7d96.js",
+    "static/js/2.51839588.chunk.js",
+    "static/css/main.9295efc6.chunk.css",
+    "static/js/main.a10aeda7.chunk.js"
+  ]
+}
