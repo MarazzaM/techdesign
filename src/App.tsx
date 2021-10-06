@@ -44,22 +44,22 @@ function App() {
           </div>
           <AnimatePresence exitBeforeEnter>
               <Switch location={location} key={location.pathname}>
-              <Route path='/techdesign' exact>
+              <Route path='/techdesign/Welcome' exact>
                   <Welcome />
                 </Route>
-                <Route path='/Home' exact>
+                <Route path='/techdesign/Home' exact>
                   <Home />
                 </Route>
-                <Route path='/About' exact>
+                <Route path='/techdesign/About' exact>
                   <About />
                 </Route>
-                <Route path='/Howto' exact>
+                <Route path='/techdesign/Howto' exact>
                   <HowTo />
                 </Route>
-                <Route path='/Advice' exact>
+                <Route path='/techdesign/Advice' exact>
                   <Advice />
                 </Route>
-                <Route path='/Resources' exact>
+                <Route path='/techdesign/Resources' exact>
                   <Resources />
                 </Route>
                 <Route path="*">

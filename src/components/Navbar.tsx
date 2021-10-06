@@ -7,13 +7,13 @@ function Navbar(this: any) {
   return (
     <div>
       <nav id='nav' className={active ? "mactive" : "nav"}>
-        <div className="logo"><h1><Link to="/techdesign" className="logoinside">TechDesign</Link></h1></div>
+        <div className="logo"><h1><Link to="/techdesign/Welcome" className="logoinside">TechDesign</Link></h1></div>
         <ul>
-          <NavLink activeClassName={'active'} to='/Home' onClick={()=> setActive(false)}>Home</NavLink>
-          <NavLink to='/About'     onClick={()=> setActive(false)}>About</NavLink>
-          <NavLink to='/HowTo'     onClick={()=> setActive(false)}>How to start</NavLink>
-          <NavLink to='/Advice'    onClick={()=> setActive(false)}>Advice</NavLink>
-          <NavLink to='/Resources' onClick={()=> setActive(false)}>Free Resources</NavLink>
+          <NavLink activeClassName={'active'} to='/techdesign/Home' onClick={()=> setActive(false)}>Home</NavLink>
+          <NavLink to='/techdesign/About'     onClick={()=> setActive(false)}>About</NavLink>
+          <NavLink to='/techdesign/HowTo'     onClick={()=> setActive(false)}>How to start</NavLink>
+          <NavLink to='/techdesign/Advice'    onClick={()=> setActive(false)}>Advice</NavLink>
+          <NavLink to='/techdesign/Resources' onClick={()=> setActive(false)}>Free Resources</NavLink>
           <li id='closebtn'><i className='bx bx-x-circle' onClick={()=> setActive(!active)}></i></li>
         </ul>
         <div className="theme-changer">
