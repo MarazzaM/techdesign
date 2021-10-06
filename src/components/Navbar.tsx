@@ -9,7 +9,7 @@ function Navbar(this: any) {
       <nav id='nav' className={active ? "mactive" : "nav"}>
         <div className="logo"><h1><Link to="/techdesign" className="logoinside">TechDesign</Link></h1></div>
         <ul>
-          <NavLink activeClassName={'active'} to='/Home' onClick={()=> setActive(false)}>Home</NavLink>
+          <NavLink activeClassName={'active'} to='/techdesign/Home' onClick={()=> setActive(false)}>Home</NavLink>
           <NavLink to='/techdesign/About'     onClick={()=> setActive(false)}>About</NavLink>
           <NavLink to='/techdesign/HowTo'     onClick={()=> setActive(false)}>How to start</NavLink>
           <NavLink to='/techdesign/Advice'    onClick={()=> setActive(false)}>Advice</NavLink>
