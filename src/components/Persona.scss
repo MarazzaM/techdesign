@@ -10,8 +10,10 @@
     min-height: 270px;
     margin-top: 2rem;
     max-width: 800px;
-    border: 10px solid #e73c7e;
+    border: 10px solid;
+    border-image-slice: 1;
     border-width: 5px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
     padding: 1rem;
     border-radius: 1rem;
     background: url(https://gist.githubusercontent.com/MarazzaM/cde9960c1d56bfc807c004a8f8da95ac/raw/0002cd047f409e794233e3bcb4621f4f06199a7e/background.svg);

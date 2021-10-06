@@ -3,7 +3,8 @@ import Navbar from './components/Navbar';
 import {
   Switch,
   Route,
-  useLocation
+  useLocation,
+  Redirect
 } from "react-router-dom";
 import Welcome from './pages/Welcome';
 import Home from './pages/Home';
