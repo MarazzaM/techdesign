@@ -23,7 +23,7 @@ function Welcome() {
             </div>
             <div className="button-container-2">
                   <span className="mas">Lets go!</span>
-                  <Link to="/Home"> <button type="button" name="Hover">Get started!</button></Link>
+                  <Link to="/techdesign/Home"> <button type="button" name="Hover">Get started!</button></Link>
             </div>
         </motion.div>
     )
